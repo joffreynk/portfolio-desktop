@@ -199,3 +199,20 @@ padding: 4px 12px;
   border-radius: 12px;
 }
 
+.experience {
+  flex-direction: column;
+}
+
+/* .about-language  {
+  float: left;
+} */
+
+.experience ul {
+  flex-direction: column;
+}
+
+.experience li {
+  display: flex;
+
+  justify-content: space-between;
+}

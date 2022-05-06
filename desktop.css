@@ -1,6 +1,6 @@
 header {
-  background: url("./images/header/Rectangle\ 6.svg") no-repeat 10px 160px/140px
-      70px,
+  background:
+    url("./images/header/Rectangle\ 6.svg") no-repeat 10px 160px/140px 70px,
     url("./images/header/Ellipse\ 11.svg") no-repeat 65px 192px/80px 40px,
     url("./images/header/Rectangle\ 7.svg") no-repeat 691px 239px/76px 30px,
     url("./images/header/Ellipse\ 5.svg") no-repeat 708px 260px/30px 30px,
@@ -11,7 +11,8 @@ header {
     url("./images/header/Ellipse\ 13.svg") no-repeat 238px 778px/36px 36px,
     url("./images/header/Ellipse\ 4.svg") no-repeat 839px 757px/20px 20px,
     url("./images/header/Rectangle\ 5.svg") no-repeat 743px 750px/162px 40px,
-    url("./images/header/Ellipse\ 6.svg") no-repeat 1174px 644px/45px 45px, #fff;
+    url("./images/header/Ellipse\ 6.svg") no-repeat 1174px 644px/45px 45px,
+    #fff;
   width: 1440px;
   height: 916px;
   display: flex;

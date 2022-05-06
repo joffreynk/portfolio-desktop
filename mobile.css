@@ -5,7 +5,8 @@
   }
 
   header {
-    background: url("./images/header/Rectangle\ 6.svg") no-repeat 34px 10px/52px 10px,
+    background:
+	  url("./images/header/Rectangle\ 6.svg") no-repeat 34px 10px/52px 10px,
       url("./images/header/Ellipse\ 11.svg") no-repeat 1px 128px/39px 19px,
       url("./images/header/Rectangle\ 4.svg") no-repeat 294px 98px/96px 70px,
       url("./images/header/Ellipse\ 3.svg") no-repeat 323px 130px/105px 105px,
@@ -28,8 +29,12 @@
   }
 
   header section {
-    padding: 20px 24px 0 0;
+    margin-top: 70px;
+    padding: 0;
+    padding: 24px 24px auto 24px;
+    margin-left: 25px;
   }
+
 
   main section {
     width: 327px;
@@ -74,7 +79,7 @@
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   header section p {
     font-weight: 400;
     font-size: 16px;
@@ -89,13 +94,6 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-  }
-
-  header section {
-    margin-top: 70px;
-    padding: 0;
-    padding: 24px 24px auto 24px;
-    margin-left: 25px;
   }
 
   .mainheader {
@@ -195,5 +193,5 @@
   #comment:hover {
     border: 1px solid lightblue;
   }
-  
+
 }

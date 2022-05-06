@@ -80,15 +80,18 @@ header section {
   letter-spacing: 0.37px;
 }
 
-h1 {
+h1{
   margin-top: 100px;
+  
 }
 
 .mainheader {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #091e42;;
+  color: #091e42;
+  width: 920px;
+  height: 98px;
 }
 
 header section p {
@@ -276,7 +279,7 @@ footer{
   display: flex;
   flex-direction: column;
   padding: 142px 319px auto 320px;
-  width: 1440px;
+  width: 600px;
   height: 846px;
   justify-content: center;
   align-items: center;
@@ -343,9 +346,17 @@ form button {
 
 @media only screen and (min-width: 768px) {
   main section {
-    grid-template-columns: 1fr 1fr;
     height: 496px;
     width: 1440px;
+  }
+
+  footer {
+    width: 1440px;
+    height: 846px;
+  }
+
+  main section {
+    grid-template-columns: 1fr 1fr;
   }
 
   .lang {

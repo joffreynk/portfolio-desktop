@@ -61,7 +61,7 @@ header .humberger {
 }
 
 @keyframes logo-humb {
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -141,7 +141,7 @@ main {
   background: #fff;
   width: 87.2%;
   margin: 0 auto;
-  transition: width .5s;
+  transition: width 0.5s;
 }
 
 .project-works:hover {
@@ -234,7 +234,7 @@ main {
   background-color: #fff;
   box-sizing: border-box;
   cursor: pointer;
-  transition: color 1s, background 1s ;
+  transition: color 1s, background 1s;
 }
 
 .button:enabled {
@@ -594,11 +594,21 @@ main {
   }
 
   @keyframes lang {
-    0%{ transform: rotate(0deg);}
-    25%{ transform: rotate(90deg);}
-    50%{ transform: rotate(180deg);}
-    75%{ transform: rotate(270deg);}
-    100%{ transform: rotate(360deg);}
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .skill-title {

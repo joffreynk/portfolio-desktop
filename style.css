@@ -422,3 +422,204 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* media query */
+@media screen and (min-width:768px) {
+  header {
+    height: 72px;
+  }
+
+  main{
+    margin-top: 72px;
+  }
+
+  header .logo-container {
+    margin-left: 143px;
+  }
+  
+  header nav {
+    margin-right: 142px;
+  }
+
+  header nav .nav-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 12px;
+    gap: 20px;
+  }
+
+  header .nav-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  header .humberger,
+  .mobile-image,
+  .hide-for-desktop,
+  .bottom-line {
+    display: none;
+  }
+
+  .headline {
+    padding: 208px 260px 179px 284px;
+    background-color: #fff;
+    background-image: url(./images/Headerbg.svg);
+    background-size: contain;
+  }
+
+  .mainheader {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    margin: 12px 0;
+    color: #091e42;
+  }
+
+  .welcome-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin: 12px 0;
+  }
+
+  .headline .connect {
+    font-size: 16px;
+  }
+  /* 
+  watch this line
+   */
+   .works {
+    width: auto;
+  }
+
+  .project-works {
+    width: 80.28%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: auto;
+    gap: 22px;
+  }
+
+  .works .project-works .p-img-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .desktop-image {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .project-works .p-body-block {
+    width: 50%;
+    padding: 0 24px 48px 24px;
+    margin: 0;
+  }
+
+  .project-works .project-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    padding: 0;
+  }
+
+  .project-works .project-info-items {
+    line-height: 24px;
+    font-size: 20px;
+  }
+
+  .project-works .canopy {
+    font-weight: 500;
+  }
+
+  .project-works .dsk-fw {
+    font-weight: 400;
+  }
+
+  .project-works .project-welcome-text {
+    font-size: 16px;
+    margin: 24px 0;
+  }
+
+  .project-works .badges {
+    margin: 24px 0;
+    padding: 0;
+  }
+
+  .row-reverse-desktop {
+    flex-direction: row-reverse;
+  }
+
+  .about {
+    flex-direction: row;
+    gap: 25px;
+    padding: 142px 142px 134px 142px;
+    border-top-right-radius: 90px;
+    background-image: url(../images/about-myself-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .about .top-container {
+    width: 55.3%;
+  }
+
+  .skill-lists {
+    width: 44.7%;
+    padding: 24px;
+    margin: 24px 0;
+  }
+
+  .language-list {
+    flex-direction: row;
+  }
+
+  .language {
+    flex-direction: column;
+    width: 32%;
+    height: 120px;
+    justify-content: center;
+  }
+
+  .skill-title {
+    width: 85%;
+    padding: 0 0 0 12px;
+  }
+
+  .frames-lfs {
+    margin: 2px 0;
+  }
+
+  /* contact section */
+
+  .contact-section {
+    background-image: url(./images/contactformbackgroundshapes.svg);
+    background-size: 97%;
+  }
+
+  .contact-section h2,
+  .contact-section p {
+    max-width: 550px;
+  }
+
+  .form {
+    max-width: 450px;
+  }
+
+  .form label input,
+  .form label textarea {
+    border-radius: 0;
+    outline: none;
+  }
+
+  .form div {
+    align-self: center;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}

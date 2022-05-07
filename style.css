@@ -68,7 +68,6 @@ main {
   display: none;
 }
 
-
 .headline {
   display: flex;
   flex-direction: column;
@@ -85,7 +84,7 @@ main {
 .mainheader {
   align-items: center;
   font-weight: bold;
-  font-size:40px;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   margin: 8px 0;
@@ -99,7 +98,7 @@ main {
 .connect {
   font-size: 1.0625rem;
   font-weight: 500;
-  margin:12px 0;
+  margin: 12px 0;
   color: #4b5399;
 }
 
@@ -423,7 +422,6 @@ main {
   background-size: cover;
 }
 
-/* media query */
 @media screen and (min-width:768px) {
   header {
     height: 72px;
@@ -436,7 +434,7 @@ main {
   header .logo-container {
     margin-left: 143px;
   }
-  
+
   header nav {
     margin-right: 142px;
   }
@@ -488,10 +486,8 @@ main {
   .headline .connect {
     font-size: 16px;
   }
-  /* 
-  watch this line
-   */
-   .works {
+
+  .works {
     width: auto;
   }
 
@@ -592,8 +588,6 @@ main {
   .frames-lfs {
     margin: 2px 0;
   }
-
-  /* contact section */
 
   .contact-section {
     background-image: url(./images/contactformbackgroundshapes.svg);

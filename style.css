@@ -73,8 +73,7 @@ main {
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-  background-image:
-    url(./images/header-shapes-mobile.svg);
+  background-image: url(./images/header-shapes-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
@@ -422,12 +421,12 @@ main {
   background-size: cover;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   header {
     height: 72px;
   }
 
-  main{
+  main {
     margin-top: 72px;
   }
 

@@ -517,6 +517,11 @@ main {
     height: 100%;
   }
 
+  .desktop-ul {
+    display: flex;
+    gap: 18px;
+  }
+
   .desktop-image {
     display: inline-block;
     width: 100%;

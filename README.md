@@ -10,13 +10,13 @@
 - HTML
 - CSS
 
+## Live Demo (if available)
+
+[Live Demo Link](https://joffreynk.github.io/portfolio-desktop/)
 
 ## Getting Started
 
 to start this project, clone it to your local computer and launch **index.html** 
-
-
-
 
 
 ## Author
@@ -29,7 +29,8 @@ to start this project, clone it to your local computer and launch **index.html**
 
 ## 🤝 Contributing
 
-feel free to comment in issues section any bugs or changes that you would like to apply on this project
+Feel free to comment in issues section any bugs or changes that you would like to apply on this project
+check the [issues page](../../issues/).
 
 ## Show your support
 

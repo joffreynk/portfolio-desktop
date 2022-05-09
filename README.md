@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# desktop version
+# desktop and mobile portfolio website
 
-> This project .
+> This project is the practice of HTML and CSS best practices. It is dynamic for mobile and desktop users.
 
 
 ## Built With:
@@ -10,9 +10,9 @@
 - HTML
 - CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://joffreynk.github.io/portfolio-desktop/)
+[Check it live here](https://joffreynk.github.io/portfolio-desktop/)
 
 ## Getting Started
 

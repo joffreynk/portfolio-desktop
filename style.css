@@ -57,7 +57,7 @@ header .logo,
 header .humberger {
   display: block;
   width: 100%;
-  animation: logo-humb 2s 3s infinite normal;
+  animation: logo-humb 2s 3s 2 normal;
 }
 
 @keyframes logo-humb {
@@ -429,7 +429,7 @@ main {
   width: 100%;
   height: 1px;
   background-image: url(../images/SeparatorBottom.svg);
-  background-color: #809de6;
+  background-color: #dfe1e6;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -515,6 +515,11 @@ main {
   .works .project-works .p-img-container {
     width: 50%;
     height: 100%;
+  }
+
+  .desktop-ul {
+    display: flex;
+    gap: 18px;
   }
 
   .desktop-image {

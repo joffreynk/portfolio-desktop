@@ -429,7 +429,7 @@ main {
   width: 100%;
   height: 1px;
   background-image: url(../images/SeparatorBottom.svg);
-  background-color: #dfe1e6;
+  background-color: #809de6;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -515,11 +515,6 @@ main {
   .works .project-works .p-img-container {
     width: 50%;
     height: 100%;
-  }
-
-  .desktop-ul {
-    display: flex;
-    gap: 18px;
   }
 
   .desktop-image {

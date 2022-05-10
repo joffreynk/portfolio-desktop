@@ -57,7 +57,7 @@ header .logo,
 header .humberger {
   display: block;
   width: 100%;
-  animation: logo-humb 2s 3s infinite normal;
+  animation: logo-humb 2s 3s 2 normal;
 }
 
 @keyframes logo-humb {

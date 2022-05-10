@@ -15,9 +15,10 @@
 ## Getting Started
 
 To start this project, clone it to your local computer and launch **[index.html](index.html)** 
+
 [Check it live here](https://joffreynk.github.io/portfolio-desktop/)
 
-This project is accessibility tested  on [](https://www.w3.org/WAI/)
+This project is accessibility tested  on [https://www.w3.org/WAI/](https://www.w3.org/WAI/)
 
 
 ## Author

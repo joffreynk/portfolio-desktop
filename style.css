@@ -337,7 +337,7 @@ main {
 .about {
   border-bottom-left-radius: 0;
   border-top-right-radius: 90px;
-  background-image: url(./images/about-myself-background.svg);
+  background: url(./images/about-myself-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -426,7 +426,7 @@ main {
 }
 
 .line {
-  width: 100%;
+  width: 80%;
   height: 1px;
   background-image: url(../images/SeparatorBottom.svg);
   background-color: #dfe1e6;

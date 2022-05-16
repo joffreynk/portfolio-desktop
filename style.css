@@ -60,8 +60,7 @@ header .humberger {
   animation: logo-humb 2s 3s 2 normal;
 }
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .desktop-ul {
     display: none;
     z-index: 1;
@@ -75,7 +74,7 @@ header .humberger {
     bottom: 0;
   }
 
-  .desktop-ul li{
+  .desktop-ul li {
     padding-left: 28px;
     padding-top: 20px;
     font-weight: 600;
@@ -86,7 +85,7 @@ header .humberger {
   .desktop-ul li a {
     color: #fff;
   }
-  
+
   #close {
     width: 20px;
     color: white;
@@ -101,8 +100,6 @@ header .humberger {
   .show {
     display: inline-block;
   }
-
-
 }
 
 main {
@@ -235,7 +232,7 @@ main {
 .project-welcome-text {
   color: #344563;
   font-size: 15px;
-  margin: 0 0 12 0;
+  margin: 0 0 12px 0;
 }
 
 .badges {

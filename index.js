@@ -1,17 +1,17 @@
-let ul = document.getElementById('show');
-  let open = document.getElementById('open');
-  let links = document.querySelectorAll('.menu-link ');
+const ul = document.getElementById ('show');
+const open = document.getElementById ('open');
+const links = document.querySelectorAl ('.menu-link ');
 
-  if(ul.classList.contains('show')){
-    ul.classList.remove('show')
-  }
+if (ul.classList.contains ('show')) {
+  ul.classList.remove('show')
+}
 
-  links.forEach(link=>{
-    link.addEventListener('click', ()=>{
-      ul.classList.remove('show')
-    })
+links.forEach (link => {
+  link.addEventListener ('click', () => {
+    ul.classList.remove ('show')
   })
-  console.log(links);
-  open.addEventListener('click',()=>{
-    ul.classList.add('show')
-  })
+})
+
+open.addEventListener ('click', () => {
+  ul.classList.add ('show')
+})

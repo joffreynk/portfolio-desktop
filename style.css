@@ -82,6 +82,27 @@ header .humberger {
     font-size: 32px;
     line-height: 44px;
   }
+
+  .desktop-ul li a {
+    color: #fff;
+  }
+  
+  #close {
+    width: 20px;
+    color: white;
+  }
+
+  .close {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+  }
+
+  .show {
+    display: inline-block;
+  }
+
+
 }
 
 main {

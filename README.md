@@ -2,13 +2,14 @@
 
 # desktop and mobile portfolio website
 
-> This project is the practice of HTML and CSS best practices. It is dynamic for mobile and desktop users.
+> This project is the practice of HTML, CSS and JAVASCRIPT best practices. It is dynamic for mobile and desktop users and interactive menu on mobile devices.
 
 
 ## Built With:
 
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Live Demo
 
@@ -27,6 +28,8 @@ to start this project, clone it to your local computer and launch **index.html**
 - Twitter: [@joffreynk](https://twitter.com/home)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/joffrey-nkeshimana-15b8aa1b3/)
 
+👤 **Dario**
+
 ## 🤝 Contributing
 
 Feel free to comment in issues section any bugs or changes that you would like to apply on this project
@@ -38,7 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-This work I did it on my own and you cannot find it anywhere else
+This work was done in collaborative teams  and you cannot find it anywhere else
 
 ## 📝 License
 

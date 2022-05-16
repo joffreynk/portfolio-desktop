@@ -65,7 +65,7 @@ header .humberger {
     display: none;
     z-index: 1;
     position: absolute;
-    background-color: rgba(96, 112, 255,0.9);
+    background-color: rgba(96, 112, 255, 0.9);
     width: 100vw;
     height: 100vh;
     top: 0;

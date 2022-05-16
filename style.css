@@ -70,14 +70,14 @@ header .humberger {
     width: 100vw;
     height: 100vh;
     top: 0;
-    right: -40px;
+    right: 0;
     padding-top: 120px;
     bottom: 0;
   }
 
   .desktop-ul li{
     padding-left: 28px;
-   padding-top: 20px;
+    padding-top: 20px;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;

@@ -60,9 +60,45 @@ header .humberger {
   animation: logo-humb 2s 3s 2 normal;
 }
 
-@keyframes logo-humb {
-  100% {
-    transform: rotate(360deg);
+@media screen and (max-width: 768px) {
+  .desktop-ul {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(96, 112, 255, 0.9);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding-top: 120px;
+    bottom: 0;
+  }
+
+  .desktop-ul li {
+    padding-left: 28px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .desktop-ul li a {
+    color: #fff;
+  }
+
+  #close {
+    width: 20px;
+    color: white;
+  }
+
+  .close {
+    position: absolute;
+    top: 6%;
+    right: 15%;
+  }
+
+  .show {
+    display: inline-block;
   }
 }
 
@@ -70,7 +106,6 @@ main {
   margin-top: 48px;
 }
 
-.desktop-ul,
 .desktop-image {
   display: none;
 }
@@ -197,7 +232,7 @@ main {
 .project-welcome-text {
   color: #344563;
   font-size: 15px;
-  margin: 0 0 12 0;
+  margin: 0 0 12px 0;
 }
 
 .badges {
@@ -337,7 +372,7 @@ main {
 .about {
   border-bottom-left-radius: 0;
   border-top-right-radius: 90px;
-  background-image: url(./images/about-myself-background.svg);
+  background: url(./images/about-myself-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -426,7 +461,7 @@ main {
 }
 
 .line {
-  width: 100%;
+  width: 80%;
   height: 1px;
   background-image: url(../images/SeparatorBottom.svg);
   background-color: #dfe1e6;

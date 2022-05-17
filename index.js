@@ -1,6 +1,6 @@
 const ul = document.getElementById('show');
 const open = document.getElementById('open');
-const links = document.querySelectorAl('.menu-link');
+const links = document.querySelectorAll('.menu-link');
 
 if (ul.classList.contains('show')) {
   ul.classList.remove('show');

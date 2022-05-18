@@ -546,6 +546,22 @@ popup {
   text-align: justify;
 }
 
+.line-sep {
+  width: 95%;
+  overflow: hidden;
+}
+
+.relatepop {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.showpop {
+  display: block;
+  overflow: auto;
+}
+
 @media screen and (min-width: 768px) {
   header {
     height: 72px;

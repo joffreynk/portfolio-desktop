@@ -514,22 +514,23 @@ main {
 }
 
 .popbtn {
-  padding: 4px 7px;
+  padding: 12px 4px;
   margin-top: 12px;
   width: 50%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .popbtn span {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
+  margin-right: 8px;
 }
 
 .popbtn img {
-  width: 14px;
+  width: 16px;
 }
 
 .popbtn:hover {
@@ -791,15 +792,28 @@ main {
 
   .card-description {
     flex-direction: row;
-    gap: 24px;
-    padding-top: 60px;
+    gap: 34px;
+    padding-top: 12px;
   }
 
   .skills-resources {
-    max-width: 40%;
+    max-width: 35%;
+    flex-shrink: 1;
   }
 
   .bottom-shape {
     display: none;
+  }
+
+  .popbtn span {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-right: 2px;
+  }
+
+  .popbtn {
+    padding: 5px 6px;
+    margin-top: 6px;
   }
 }

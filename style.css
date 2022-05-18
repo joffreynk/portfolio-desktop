@@ -100,6 +100,12 @@ header .humberger {
   .show {
     display: inline-block;
   }
+  
+  .bottom-shape {
+    display: block;
+    text-align: center;
+    margin-bottom: 6%;
+  }
 }
 
 main {
@@ -469,6 +475,8 @@ main {
   background-size: cover;
 }
 
+
+
 @media screen and (min-width: 768px) {
   header {
     height: 72px;
@@ -690,5 +698,23 @@ main {
 
   .reverse {
     flex-direction: row-reverse;
+  }
+
+  .popup {
+    margin: 60px 142px;
+  }
+
+  .card-description {
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 60px;
+  }
+
+  .skills-resources {
+    max-width: 40%;
+  }
+
+  .bottom-shape {
+    display: none;
   }
 }

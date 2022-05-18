@@ -499,6 +499,21 @@ popup {
   left: 0;
 }
 
+.popheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popheader img {
+  cursor: pointer;
+}
+
+.btn-pop {
+  display: flex;
+  gap: 12px;
+}
+
+
 @media screen and (min-width: 768px) {
   header {
     height: 72px;

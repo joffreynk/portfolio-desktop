@@ -72,9 +72,17 @@ if (ul.classList.contains('show')) {
   ul.classList.remove('show');
 }
 
+function clicked() {
+  const shown = document.querySelectorAll('.showpop');
+  shown.forEach((sec) => {
+    sec.classList.remove('showpop');
+  });
+}
+
 links.forEach((link) => {
   link.addEventListener('click', () => {
     ul.classList.remove('show');
+    clicked();
   });
 });
 
@@ -85,7 +93,7 @@ open.addEventListener('click', () => {
 const bttns = document.querySelectorAll('.relatepop');
 
 function loop(par) {
-  let text = ``;
+  let text = '';
   par.forEach((badge) => {
     text += `<li class='badge'>${badge} </li>`;
   });
@@ -106,9 +114,7 @@ function create(project) {
     <span class='project-info-items'>${project.info.year}</span>
   </li>
   <li class='p-img-container'>
-    <img src=${
-      project.mobile
-    } alt='Tonic Activity on mobile version' class='mobile-image'>
+    <img src=${project.mobile} alt='Tonic Activity on mobile version' class='mobile-image'>
     <img src=${project.desktop} alt='Tonic activity on desktop version' 
    class='desktop-image'>
   </li>
@@ -120,12 +126,8 @@ function create(project) {
       </ul>
       <div class='line-sep'><img src='./images/SeparatorBottom.svg' alt='separator'></div>
       <div class='btn-pop'>
-        <button class='button popbtn' type='button'><span>See live</span> <a href=${
-          project.livelink
-        }><img src='./images/viewMoreIcon.svg' alt='live'/></a> </button>
-        <button class='button popbtn' type='button'><span>See source</span> <a href=${
-          project.githublink
-        }><img src='./images/github.svg' alt='source'/></a></button>
+        <button class='button popbtn' type='button'><span>See live</span> <a href=${project.livelink}><img src='./images/viewMoreIcon.svg' alt='live'/></a> </button>
+        <button class='button popbtn' type='button'><span>See source</span> <a href=${project.githublink}><img src='./images/github.svg' alt='source'/></a></button>
       </div>
     </div>
   </li>
@@ -147,10 +149,3 @@ bttns.forEach((bttn) => {
     mainSection.appendChild(section);
   });
 });
-
-function clicked() {
-  const shown = document.querySelectorAll('.showpop');
-  shown.forEach((sec) => {
-    sec.classList.remove('showpop');
-  });
-}

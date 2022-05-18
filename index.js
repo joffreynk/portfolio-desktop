@@ -84,6 +84,56 @@ open.addEventListener("click", () => {
 
 const bttns = document.querySelectorAll(".relatepop");
 
+function loop(par) {
+  let text = ``;
+  par.forEach((badge) => {
+    text += `<li class='badge'>${badge} </li>`;
+  });
+  return text;
+}
+
+function create(project) {
+  const code = `<ul class='popup'>
+  <li class='popheader'>
+    <h2 class='project-title'>${project.title}</h2>
+    <img class='closeModal' id='closeModel' onclick='clicked();'  src='./images/closeIconpopup.svg' alt='close Icon'>
+  </li>
+  <li class='project-info'>
+    <span class='project-info-items canopy'>${project.info.canopy}</span>
+    <img src=${project.info.counter} alt='counter'>
+    <span class='project-info-items dsk-fw'>${project.info.dev}</span>
+    <img src=${project.info.counter} alt='counter'>
+    <span class='project-info-items'>${project.info.year}</span>
+  </li>
+  <li class='p-img-container'>
+    <img src=${
+      project.mobile
+    } alt='Tonic Activity on mobile version' class='mobile-image'>
+    <img src=${project.desktop} alt='Tonic activity on desktop version' 
+   class='desktop-image'>
+  </li>
+  <li class='card-description'>
+    <p class='project-welcome-text'>${project.description}</p>
+    <div class='skills-resources'>
+      <ul class='badges'>
+      ${loop(project.badges)}
+      </ul>
+      <div class='line-sep'><img src='./images/SeparatorBottom.svg' alt='separator'></div>
+      <div class='btn-pop'>
+        <button class='button popbtn' type='button'><span>See live</span> <a href=${
+          project.livelink
+        }><img src='./images/viewMoreIcon.svg' alt='live'/></a> </button>
+        <button class='button popbtn' type='button'><span>See source</span> <a href=${
+          project.githublink
+        }><img src='./images/github.svg' alt='source'/></a></button>
+      </div>
+    </div>
+  </li>
+  <li class='bottom-line'></li>
+</ul>`;
+  return code;
+}
+
 bttns.forEach((bttn) => {
   bttn.addEventListener("click", () => {
     const mainSection = document.querySelector("#portfolio");
@@ -98,54 +148,8 @@ bttns.forEach((bttn) => {
   });
 });
 
-function loop(par) {
-  let text = ``;
-  par.forEach((badge) => {
-    text += `<li class="badge">${badge} </li>`;
-  });
-  return text;
-}
-
-function create(project, id) {
-  const code = `<ul class="popup">
-  <li class="popheader">
-    <h2 class="project-title">${project.title}</h2>
-    <img class="closeModal" id="closeModel" onclick="clicked();"  src="./images/closeIconpopup.svg" alt="close Icon">
-  </li>
-  <li class="project-info">
-    <span class="project-info-items canopy">${project.info.canopy}</span>
-    <img src=${project.info.counter} alt="counter">
-    <span class="project-info-items dsk-fw">${project.info.dev}</span>
-    <img src=${project.info.counter} alt="counter">
-    <span class="project-info-items">${project.info.year}</span>
-  </li>
-  <li class="p-img-container">
-    <img src=${project.mobile} alt="Tonic Activity on mobile version" class="mobile-image">
-    <img src=${project.desktop} alt="Tonic activity on desktop version" 
-   class="desktop-image">
-  </li>
-  <li class="card-description">
-    <p class="project-welcome-text">${project.description}</p>
-    <div class="skills-resources">
-      <ul class="badges">
-      ${
-        loop(project.badges)
-      }
-      </ul>
-      <div class="line-sep"><img src="./images/SeparatorBottom.svg" alt="separator"></div>
-      <div class="btn-pop">
-        <button class="button popbtn" type="button"><span>See live</span> <a href=${project.livelink}><img src="./images/viewMoreIcon.svg" alt="live"/></a> </button>
-        <button class="button popbtn" type="button"><span>See source</span> <a href=${project.githublink}><img src="./images/github.svg" alt="source"/></a></button>
-      </div>
-    </div>
-  </li>
-  <li class="bottom-line"></li>
-</ul>`;
-return code;
-}
-
 function clicked() {
-  const shown = document.querySelectorAll('.showpop');
+  const shown = document.querySelectorAll(".showpop");
   shown.forEach((sec) => {
     sec.classList.remove("showpop");
   });

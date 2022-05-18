@@ -477,7 +477,7 @@ main {
 
 popup {
   margin: 60px 16px 8px 16px;
-  background-color: rgb(244, 242, 242);
+  background-color: rgb(242, 242, 242);
   flex-direction: column;
   padding: 24px;
   gap: 20px;
@@ -487,7 +487,7 @@ popup {
 }
 
 .popup-window {
-  background-color: rgb(177, 174, 174);
+  background-color: rgb(195, 195, 195);
   display: none;
   position: fixed;
   z-index: 4;

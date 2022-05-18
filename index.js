@@ -143,3 +143,10 @@ function create(project, id) {
 </ul>`;
 return code;
 }
+
+function clicked() {
+  const shown = document.querySelectorAll('.showpop');
+  shown.forEach((sec) => {
+    sec.classList.remove("showpop");
+  });
+}

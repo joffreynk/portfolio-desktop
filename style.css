@@ -100,7 +100,7 @@ header .humberger {
   .show {
     display: inline-block;
   }
-  
+
   .bottom-shape {
     display: block;
     text-align: center;
@@ -475,9 +475,9 @@ main {
   background-size: cover;
 }
 
-popup {
+.popup {
   margin: 60px 16px 8px 16px;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
   flex-direction: column;
   padding: 24px;
   gap: 20px;
@@ -533,7 +533,7 @@ popup {
 }
 
 .popbtn:hover {
-  background-color:rgba(91, 91, 248, 0.4);
+  background-color: rgba(91, 91, 248, 0.4);
 }
 
 .card-description {

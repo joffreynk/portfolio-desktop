@@ -81,3 +81,27 @@ const data = [
       github: 'https://github.com/JoffreyNK/portfolio-desktop',
     }
   ];
+  
+  const bttns  = document.querySelectorAll('.relatepop');
+
+  bttns.forEach((bttn) => {
+    bttn.addEventListener('click',() => {
+      const mainSection = document.querySelector('#portfolio')
+      const id = Number(bttn.getAttribute('id'));
+      const section = document.createElement('section');
+      section.setAttribute('class', 'popup-window');
+      section.setAttribute('id', 'modal');
+      const project = create(data[id]);
+      section.innerHTML =  project;
+      section.classList.add('showpop');
+      mainSection.appendChild(section);
+    });
+  });
+  
+  function loop(par) {
+    let text = ``;
+    par.forEach((badge) => {
+      text+=`<li class="badge">${badge} </li>`;
+    });
+    return text;
+  } 

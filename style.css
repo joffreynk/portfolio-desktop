@@ -513,6 +513,38 @@ popup {
   gap: 12px;
 }
 
+.popbtn {
+  padding: 4px 7px;
+  margin-top: 12px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popbtn span {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.popbtn img {
+  width: 14px;
+}
+
+.popbtn:hover {
+  background-color:rgba(91, 91, 248, 0.4);
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-description p {
+  text-align: justify;
+}
 
 @media screen and (min-width: 768px) {
   header {

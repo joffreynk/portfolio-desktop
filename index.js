@@ -150,18 +150,3 @@ bttns.forEach((bttn) => {
   });
 });
 
-
-const submitbtn = document.getElementById('submitbtn');
-submitbtn.addEventListener('click', ()=>{
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message')
-  console.log('submit btn clicked');
-  message.style.fontSize = '15px'
-  if(email === email.toLowerCase()){
-    message.style.color = 'green'
-    message.innerText = 'Welcome back'
-  } else {
-    message.style.color = 'yellow'
-    message.innerText = 'please errors in your email'
-  }
-})

@@ -150,3 +150,9 @@ bttns.forEach((bttn) => {
   });
 });
 
+function verify() {
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message')
+  message.style.fontSize = '15px'
+  
+}

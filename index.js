@@ -9,7 +9,7 @@ const data = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counterpic: './images/counter.svg',
+      counterpic: './images/Counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -25,7 +25,7 @@ const data = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counterpic: './images/counter.svg',
+      counterpic: './images/Counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -41,7 +41,7 @@ const data = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counterpic: './images/counter.svg',
+      counterpic: './images/Counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -57,7 +57,7 @@ const data = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counterpic: './images/counter.svg',
+      counterpic: './images/Counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',

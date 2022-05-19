@@ -152,11 +152,11 @@ bttns.forEach((bttn) => {
 
 function verify() {
   const email = document.getElementById('email').value;
-  const message = document.getElementById('message');
-  message.style.fontSize = '15px'
-  if (email === email.toLowerCase()){
+  if (email === email.toLowerCase()) {
     return true;
   } 
+  const message = document.getElementById('message');
+  message.style.fontSize = '15px';
   message.style.color = 'yellow';
   message.innerText = 'please, type your email in lowercase';
   return false;

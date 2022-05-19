@@ -155,7 +155,7 @@ function verify() {
   if (email === email.toLowerCase()) {
     return true;
   }
-  const message = document.getElementById('message');
+  const message = document.getElementById('errormessage');
   message.style.fontSize = '15px';
   message.style.color = 'yellow';
   message.innerText = 'please, type your email in lowercase';

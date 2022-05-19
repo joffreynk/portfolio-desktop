@@ -154,7 +154,7 @@ function verify() {
   const email = document.getElementById('email').value;
   if (email === email.toLowerCase()) {
     return true;
-  } 
+  }
   const message = document.getElementById('message');
   message.style.fontSize = '15px';
   message.style.color = 'yellow';

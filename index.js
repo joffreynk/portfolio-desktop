@@ -7,9 +7,9 @@ const data = [
     desktop: './images/SnapshootPortfolioA.svg',
     mobile: './images/multi-post.svg',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counter: './images/counter.svg',
+      counterpic: './images/counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -23,9 +23,9 @@ const data = [
     desktop: './images/SnapshootPortfolioB.svg',
     mobile: './images/tonic.svg',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counter: './images/counter.svg',
+      counterpic: './images/counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -39,9 +39,9 @@ const data = [
     desktop: './images/SnapshootPortfolioC.svg',
     mobile: './images/profesional.svg',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counter: './images/counter.svg',
+      counterpic: './images/counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -55,9 +55,9 @@ const data = [
     desktop: './images/SnapshootPortfolioD.svg',
     mobile: './images/tonic2.svg',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     info: {
-      counter: './images/counter.svg',
+      counterpic: './images/counter.svg',
       year: 2015,
       canopy: 'CANOPY',
       dev: 'Back End Dev',
@@ -108,9 +108,9 @@ function create(project) {
   </li>
   <li class='project-info'>
     <span class='project-info-items canopy'>${project.info.canopy}</span>
-    <img src=${project.info.counter} alt='counter'>
+    <img src=${project.info.counterpic} alt='counter'>
     <span class='project-info-items dsk-fw'>${project.info.dev}</span>
-    <img src=${project.info.counter} alt='counter'>
+    <img src=${project.info.counterpic} alt='counter'>
     <span class='project-info-items'>${project.info.year}</span>
   </li>
   <li class='p-img-container'>

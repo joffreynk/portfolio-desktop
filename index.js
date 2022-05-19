@@ -156,5 +156,9 @@ function verify() {
   message.style.fontSize = '15px'
   if(email === email.toLowerCase()){
     return true;
+  }else {
+    message.style.color = 'yellow';
+    message.innerText = 'please, type your email in lowercase';
+    return false;
   }
 }

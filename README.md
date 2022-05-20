@@ -6,6 +6,10 @@
 > I added the functionality of checking more about each project.  To open it you click on see project and to close it you click on X button on top right 
 > the form is working correctly and you can contact through email
 
+
+> We have added functionality of keeping what a user typed in form fields to help them no typing again when they close browser by mistake or when power goes by the time they are typing.
+> Users can eraser what they typed before and type new values. but if it is their first time to visit our website they are no values in their form fields
+
 ## Built With:
 
 - HTML

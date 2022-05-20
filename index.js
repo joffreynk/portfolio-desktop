@@ -174,5 +174,19 @@ function saveData() {
   }
   localStorage.setItem('contact', JSON.stringify(contact));
 }
+
+const storedData = JSON.parse(localStorage.getItem('contact'));
+if(storedData.username!==undefined){
+  username.defaultValue = storedData.username;
+}
+
+if(storedData.email!==undefined){
+  email.defaultValue = storedData.email;
+}
+
+if(storedData.message!==undefined){
+  message.defaultValue = storedData.message;
+}
+
 saveData();
 verify();

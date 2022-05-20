@@ -4,7 +4,7 @@
 
 > This project is the practice of HTML, CSS and JAVASCRIPT best practices. It is dynamic for mobile and desktop users and interactive menu on mobile devices.
 > I added the functionality of checking more about each project.  To open it you click on see project and to close it you click on X button on top right 
-
+> the form is working correctly and you can contact through email
 
 ## Built With:
 

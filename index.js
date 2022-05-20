@@ -166,4 +166,13 @@ const username = document.getElementById('username');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 
+function saveData() {
+  const contact = {
+    username: username.value,
+    email: email.value,
+    message: message.value
+  }
+  localStorage.setItem('contact', JSON.stringify(contact));
+}
+saveData();
 verify();

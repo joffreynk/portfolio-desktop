@@ -79,6 +79,8 @@ function clicked() {
   });
 }
 
+let profil = 6*'profiles';
+
 links.forEach((link) => {
   link.addEventListener('click', () => {
     ul.classList.remove('show');

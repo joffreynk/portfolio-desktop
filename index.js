@@ -162,30 +162,31 @@ function verify() {
   return false;
 }
 
-const username = document.getElementById('username');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
+const usernamehtml = document.getElementById('username');
+const emailhtml = document.getElementById('email');
+const messagehtml = document.getElementById('message');
 
 function saveData() {
   const contact = {
-    username: username.value,
-    email: email.value,
-    message: message.value
-  }
-  localStorage.setItem('contact', JSON.stringify(contact));
+    username: usernamehtml.value,
+    email: emailhtml.value,
+    message: messagehtml.value,
+  };
+
+  localStorage.setItem('data', JSON.stringify(contact));
 }
 
-const storedData = JSON.parse(localStorage.getItem('contact'));
-if(storedData.username!==undefined){
-  username.defaultValue = storedData.username;
+const storedData = JSON.parse(localStorage.getItem('data'));
+if (storedData.username !== undefined) {
+  usernamehtml.defaultValue = storedData.username;
 }
 
-if(storedData.email!==undefined){
-  email.defaultValue = storedData.email;
+if (storedData.email !== undefined) {
+  emailhtml.defaultValue = storedData.email;
 }
 
-if(storedData.message!==undefined){
-  message.defaultValue = storedData.message;
+if (storedData.message !== undefined) {
+  messagehtml.defaultValue = storedData.message;
 }
 
 saveData();

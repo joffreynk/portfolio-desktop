@@ -162,6 +162,8 @@ function verify() {
   return false;
 }
 
-
+const username = document.getElementById('username');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
 
 verify();

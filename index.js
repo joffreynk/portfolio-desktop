@@ -1,4 +1,3 @@
-debugger;
 const ul = document.getElementById('show');
 const open = document.getElementById('open');
 const links = document.querySelectorAll('.menu-link');
@@ -79,8 +78,6 @@ function clicked() {
     sec.classList.remove('showpop');
   });
 }
-
-let profil = 6*'profiles';
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
@@ -180,15 +177,15 @@ function saveData() {
 }
 
 const storedData = JSON.parse(localStorage.getItem('data'));
-if (storedData.username !== undefined) {
+if (storedData && storedData.username !== undefined) {
   usernamehtml.defaultValue = storedData.username;
 }
 
-if (storedData.email !== undefined) {
+if (storedData && storedData.email !== undefined) {
   emailhtml.defaultValue = storedData.email;
 }
 
-if (storedData.message !== undefined) {
+if (storedData && storedData.message !== undefined) {
   messagehtml.defaultValue = storedData.message;
 }
 

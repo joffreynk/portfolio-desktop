@@ -224,13 +224,13 @@
           coding. I'd love to help with it</p>
           <form action="https://formspree.io/f/xlezakql" onsubmit=" return verify();" class="form" method="POST">
             <label for="username">
-              <input type="text" name="username" id="username" maxlength="30" placeholder="user name" required>
+              <input type="text" name="username" oninput="saveData();" id="username" maxlength="30" placeholder="user name" required>
             </label>
             <label for="email">
-              <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+              <input type="email" name="email" oninput="saveData();" id="email" placeholder="example@mail.com" required>
             </label>
             <label for="message">
-              <textarea name="message" id="message" rows="5" maxlength="500" placeholder="Write your message here!"
+              <textarea name="message" id="message" oninput="saveData();" rows="5" maxlength="500" placeholder="Write your message here!"
               required></textarea>
             </label>
             <p id="errormessage"></p>

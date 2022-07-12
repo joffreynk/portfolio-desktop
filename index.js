@@ -162,4 +162,32 @@ function verify() {
   return false;
 }
 
+const usernamehtml = document.getElementById('username');
+const emailhtml = document.getElementById('email');
+const messagehtml = document.getElementById('message');
+
+function saveData() {
+  const contact = {
+    username: usernamehtml.value,
+    email: emailhtml.value,
+    message: messagehtml.value,
+  };
+
+  localStorage.setItem('data', JSON.stringify(contact));
+}
+
+const storedData = JSON.parse(localStorage.getItem('data'));
+if (storedData.username !== undefined) {
+  usernamehtml.defaultValue = storedData.username;
+}
+
+if (storedData.email !== undefined) {
+  emailhtml.defaultValue = storedData.email;
+}
+
+if (storedData.message !== undefined) {
+  messagehtml.defaultValue = storedData.message;
+}
+
+saveData();
 verify();
